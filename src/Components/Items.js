@@ -1,6 +1,8 @@
-import React,{usestate} from 'react';
+import React,{useState,useEffect} from 'react';
+
 
 const Item=(props)=>{
+  
     
     return(
       <div className="container">
@@ -17,11 +19,12 @@ const Item=(props)=>{
   <div className="card-body">
     <h5 className="card-title">{props.episode}</h5>
     <p className="card-text">{props.air_date}</p>
-    <a href="#" className="btn btn-warning text-denger">charecters</a>
+    <a href="#" className="btn btn-warning text-denger" >charecters</a>
   </div>
    </div>
          </div>
        </div>
+
       </div>
     )
 }
